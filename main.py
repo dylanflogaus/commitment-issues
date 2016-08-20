@@ -3,16 +3,15 @@ import requests
 import json
 from settings import *
 
-def flip(bit):
-    if bit == "1":
-        return "0"
-    elif bit == "0":
-        return "1"
+flip = {
+    "1":"0",
+    "0":"1"
+}
 
 info = requests.get(url).json()
 
 sha = info["sha"]
-content = flip(b64decode(info["content"]))
+content = flip[b64decode(info["content"])]
 
 headers = {
     'Authorization': 'token {0}'.format(token)
