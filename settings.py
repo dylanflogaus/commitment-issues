@@ -1,3 +1,3 @@
-url = "https://api.github.com/repos/veggiedefender/commitment-issues/contents/punchingbag.md"
+url = "https://api.github.com/repos/dylanflogaus/commitment-issues/contents/punchingbag.md"
 
-token = "qwertyuiopasdfghjklzxcvbnm0123456789abcd"        
+token = "dc921b49d8a59dc45d14ef319aafcf8010a61191"
